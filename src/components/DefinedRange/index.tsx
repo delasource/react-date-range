@@ -18,7 +18,7 @@ export type DefinedRangeProps = {
   focusNextRangeOnDefinedRangeClick?: boolean,
   onPreviewChange?: (value?: DateRange) => void,
   onChange?: (value: {[x: string]: DateRange}) => void,
-  renderStaticRangeLabel?: (staticRange: DefinedRangeProps["staticRanges"][number]) => ReactElement
+  renderStaticRangeLabel?: (staticRange: any) => ReactElement
   onRangeFocusChange?: (range: number[]) => void,
 };
 
